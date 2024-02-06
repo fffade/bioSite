@@ -14,68 +14,90 @@
 </head>
 <body>
 
-  <div class="header-title">
-    <h1>BioSite</h1>
-  </div>
 
-  <div class="navbar">
+  <header>
+    <div class="header-title">
+      <h1>BioSite</h1>
+    </div>
 
-    <p><a href="./index.html">Home</a></p>
+    <div class="navbar">
 
-    <p><a href="./about.html">About</a></p>
+      <p><a href="./index.html">Home</a></p>
 
-    <p><a href="#">Hobbies</a></p>
+      <p><a href="./about.html">About</a></p>
 
-  </div>
+      <p><a href="#">Hobbies</a></p>
 
-  <div class="sidebar">
+    </div>
 
-    <button onclick="document.getElementById('gallery').scrollIntoView();">
-      Go To Gallery
-    </button>
+  </header>
 
-  </div>
+  <main>
 
-  <div class="content">
+    <div class="sidebar">
 
-    <h1>Main page heading</h1>
+      <button onclick="document.getElementById('gallery').scrollIntoView();">
+        Go To Gallery
+      </button>
 
-    <p>Main paragraph</p>
+    </div>
 
-    <br>
+    <div class="content">
 
-    <h2>Second level heading</h2>
+      <h1>Emme's Hobbies</h1>
 
-    <ul>
-      <li><p>List element</p></li>
-      <li><p>List element</p></li>
-      <li><p>List element</p></li>
-    </ul>
+      <p>
+        &emsp;Emme is an artist and a gamer. This makes her personal computer a significant aspect of her life, and she has even styled it to suit her theme with a clean white appearance and RGB lighting.
+        She spends a lot of her free time playing video games either alone or with her friends, or working on digital art pieces. One game she plays with her friends is DND (Dungeon and Dragons),
+        a creative fantasy role-playing game. Apart from that, her most played video game of all time is League of Legends, which is a MOBA (multiplayer online battle arena) game.
+      </p>
 
-  </div>
+      <br>
 
-  <div id="gallery" class="gallery">
+      <h2>Emme's Favourite Games</h2>
 
-    <figure>
-      <img alt="Portrait" src="./images/portrait.jpg">
-      <figcaption><p>Caption</p></figcaption>
-    </figure>
+      <ul>
+        <li><p>League of Legends</p></li>
+        <li><p>Minecraft</p></li>
+        <li><p>Stardew Valley</p></li>
+        <li><p>Project Zomboid</p></li>
+        <li><p>Rust</p></li>
+      </ul>
 
-    <figure>
-      <img alt="Portrait" src="./images/portrait.jpg">
-      <figcaption><p>Caption</p></figcaption>
-    </figure>
+    </div>
 
-    <figure>
-      <img alt="Portrait" src="./images/portrait.jpg">
-      <figcaption><p>Caption</p></figcaption>
-    </figure>
+  </main>
 
-  </div>
+  <article>
 
-  <div class="footer-text">
-    <p>Page copyright</p>
-  </div>
+    <div id="gallery" class="gallery">
+
+      <figure>
+        <img alt="Emme's Gaming Setup" src="./images/computer_setup.jpg">
+        <figcaption><p>Emme's Gaming Computer</p></figcaption>
+      </figure>
+
+      <figure>
+        <img alt="Emme's DND Notebook" src="./images/dnd.jpg">
+        <figcaption><p>Emme's DND Notebook</p></figcaption>
+      </figure>
+
+      <figure>
+        <img alt="Emme's Character Drawing" src="./images/drawing.jpg">
+        <figcaption><p>Emme's Art</p></figcaption>
+      </figure>
+
+    </div>
+
+  </article>
+
+  <footer>
+
+      <div class="footer-text">
+        <p>&copy; 2024 Omar Johnson</p>
+      </div>
+
+  </footer>
 
 </body>
 </html>
