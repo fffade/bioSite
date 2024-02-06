@@ -85,7 +85,7 @@ main
   margin-top: 8em;
   margin-bottom: 4em;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 30% 50%;
 }
 
 /* HEADINGS */
